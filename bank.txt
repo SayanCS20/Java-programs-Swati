@@ -1,0 +1,29 @@
+import java.util.*;
+import java.Scanner;
+
+class Account {
+	String name;
+	int acc_num;
+	String type_acc;
+
+void accept();
+void display_bal();
+void interest();
+void withdrawal();
+
+class Curr_acc extends Account {
+void accept(int deposit) {
+	Scannner sc = new Scanner;
+	deposit = nextInt();
+	System.out.println("Deposited Money: ");
+
+//no interest
+//checkbook
+//min bal
+
+}
+
+class Sav_acc extends Account {
+//Compound Int.
+//Withdrawal
+}
